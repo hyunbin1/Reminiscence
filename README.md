@@ -17,9 +17,11 @@ Toy_project =
 
 - main App에는 index, detail, create 총 3개의 html 페이지를 생성해놓았고,
   기본적으로 불러올수 있도록 url연결과 views.py 페이지 불러오기 함수만 작성해 놓았습니다.
+  <br>
 - accounts App에는 login, signup 총 2개의 html 페이지를 생성해놓았고,
   view나 url은 작성하지 않았습니다.
-
+<br>
+<br>
 4. 브랜치는 master, back으로 나누었습니다.
   </h3>
  </p>
