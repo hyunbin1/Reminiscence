@@ -15,14 +15,16 @@ Toy_project =
 
 3. 아직 기본적인 세팅만 해놓았습니다!
 
-- main App에는 index, detail, create html 총 3개의 페이지를 생성해놓았고,
+- main App에는 index, detail, create 총 3개의 html 페이지를 생성해놓았고,
   기본적으로 불러올수 있도록 url연결과 views.py 페이지 불러오기 함수만 작성해 놓았습니다.
-- accounts App에는 login, signup.html 총 2개의 페이지를 생성해놓았고,
+- accounts App에는 login, signup 총 2개의 html 페이지를 생성해놓았고,
   view나 url은 작성하지 않았습니다.
 
-4. 브랜치는 마스터, back으로 나누었습니다.
+4. 브랜치는 master, back으로 나누었습니다.
   </h3>
  </p>
+ 
+<br>
  
 🏁 Getting started
 ---
