@@ -7,7 +7,8 @@ Toy_project =
 
 📖 Introduction
 ---
-
+<p>
+  <h3>
 1. project = reminiscence
 
 2. app = main, accounts
@@ -20,8 +21,9 @@ Toy_project =
   view나 url은 작성하지 않았습니다.
 
 4. 브랜치는 마스터, back으로 나누었습니다.
-
-
+  </h3>
+ </p>
+ 
 🏁 Getting started
 ---
 
