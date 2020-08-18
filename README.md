@@ -2,7 +2,11 @@
 
 # Reminiscence
 
-📖 Introduction()
+Toy_project = 
+===
+
+📖 Introduction
+---
 
 1. project = reminiscence
 
@@ -17,39 +21,64 @@
 
 4. 브랜치는 마스터, back으로 나누었습니다.
 
+
 🏁 Getting started
+---
 
-1. git clone
-   First of all, clone this repository
+### 1. git clone
 
-\$ git clone https://github.com/hyunbin1/ToyProject.git
+First of all, clone this repository
 
-2. venv 파일 지우고 다시 깔기
-   python -m venv venv . venv/scripts/activate
+```bash
+$ git clone https://github.com/hyunbin1/Reminiscence.git
+```
 
-3. 가상환경 활성화하기
-   $ source venv/scripts/activate # for windows
+### 2.  venv 파일 지우고 다시 깔기
+
+```[terminal] bash
+$ python -m venv venv
+```
+> The name of virtual environment is defined by "venv"
+
+### 3. 가상환경 실행하기
+```bash
+$ source venv/scripts/activate # for windows
 $ source venv/bin/activate # for mac or linux
+```
 
-4. pip package 깔기
+### 4. pip packages 깔기
 
-\$ pip install -r requirements.txt
+```bash
+$ pip install -r requirements.txt
+```
 
 cf] If you want people to recommend the package you have installed, enter the command.
 
-\$ pip freeze > requirements.txt
-If additional packages are installed, the following commands should be executed.
+```bash
+$ pip freeze > requirements.txt
+```
 
-5. 브랜치 변경하기
+> If additional packages are installed, the following commands should be executed.
 
-- master, back
+### 5. git branch 변경하기
 
-\$ git checkout 브랜치명
+
+```bash
+$ git checkout <branch_name> # "master" or "develop"
+```
+
+> Insert 'master' or 'back' instead of <branch_name>.
+
 
 :Common times when you start project : Git command
+---
+
+```bash
 when you start the project=
 $ git pull origin <branch_name>
 Plz don't forget to push your work, when the work is done.
 $ git add .
 $ git commit -m "What did u do"
 $ git push origin <branch_name>
+```
+
